@@ -46,13 +46,13 @@ claude-code-android-hooks/
 1. Clone this repository or copy the hooks directory to your Android project:
 
 ```bash
-cp -r hooks /path/to/your/android/project/.git/hooks/
+cp -r hooks /path/to/your/android/project/.claude/hooks/
 ```
 
 2. Make the hook executable:
 
 ```bash
-chmod +x /path/to/your/android/project/.git/hooks/compose/compose_preview_check.py
+chmod +x /path/to/your/android/project/.claude/hooks/compose/compose_preview_check.py
 ```
 
 3. Configure Git to use the hook (or set it up as a pre-commit hook in your CI/CD pipeline)
